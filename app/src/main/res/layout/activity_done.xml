@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".Done"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:text="恭喜你完成了今天目标！"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/blue"/>
+
+
+    <ImageView
+        android:id="@+id/shutdown"
+        android:layout_width="40dp"
+        android:background="@color/blue"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:src="@drawable/ic_baseline_close_24"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"/>
+
+</LinearLayout>
